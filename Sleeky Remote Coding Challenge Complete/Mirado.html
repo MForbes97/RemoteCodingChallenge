@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="jquery-3.4.1.js"></script>
+        <script src="javascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+            Mirado
+        </title>
+    </head>
+    <body>
+        <div id="first-page">
+            <div id="menu-bar">
+                <p id="p1">
+                    <img src="images/top-logo.png">
+                </p>
+                <p id="p2">
+                    <a href="LinkPage.html">ABOUT</a>
+                </p>
+                <p id="divider">|</p>
+                <p id="p3">
+                    <a href="LinkPage.html">HOW TO GET HELP</a>
+                </p>
+                <p id="divider">|</p>
+                <p id="p4">
+                    <a href="LinkPage.html">OUR SERVICES</a>
+                </p>
+                <p id="divider">|</p>
+                <p id="p5">
+                    <a href="LinkPage.html">NEWS</a>
+                </p>
+                <p id="divider">|</p>
+                <p id="p6">
+                    <a href="LinkPage.html">CONTACT</a>
+                </p>
+                <p id="p7">
+                    <a href="LinkPage.html">FREE CONSULTATION</a>
+                </p>
+            </div>
+            <div class="align">
+                <p id="intro">
+                    <a class="colour-green">Mirado</a> is a service that offers talking therapies to help students and young people to find a way forward for worries or concerns that may be having an 
+                    impact on their lives.
+                </p>
+            </div>
+            <div id="bubble-1">
+                <div class="title">
+                    <p>I am a parent/carer</p>
+                </div>
+                <div class="body">
+                    Are you a parent or family member concerned about a young person you care for?
+                </div>
+                <form action="LinkPage.html">
+                    <input id="b1" onmouseover="mousebutton()" onmouseout="normalbutton()" type="submit" value="Learn More" />
+                </form>
+            </div>
+            <div id="mini-bubble1"></div>
+            <div id="mini-bubble2"></div>
+            <div id="mini-bubble3"></div>
+            <div id="mini-bubble4"></div>
+            <div id="bubble-2">
+                <div class="title">
+                    <p>I'm a young person</p>
+                </div>
+                <div class="body">
+                    Are you a young person who feels that they need help and support with some difficulties?
+                </div>
+                <form action="LinkPage.html">
+                    <input id="b2" onmouseover="mousebutton()" onmouseout="normalbutton()" type="submit" value="Learn More" />
+                </form>
+            </div>
+        </div>
+        <div id="second-page">
+            <div id="page2-title">
+                <p>HOW WE CAN HELP</p>
+            </div>
+            <div id="left">
+                <p>
+                    When our mental health is good, we feel good about ourselves, enjoy being with others and feel able to tackle the challenges life gives us.
+                </p>
+                <p>
+                    Yet, we all go through times when we may feel sad, worries or confused. Sometimes, we feel depressed or anxious. Sometimes, it might start to feel
+                    difficult to do everyday things like spend time with family or friends, go to school or university, or enjoy activities that we used to find fun.
+                    Dealing with this alone can feel really tough. Talking therapy is an effective solution that alleviates these sorts of difficulties.
+                </p>
+                <p>
+                    Therapists at Mirado can help you find ways to leave these difficult experiences behind or find a way to engage in life in a more enjoyable way.
+                    Everyone is different, so the help each of us needs will be different too. At Mirado, you will team up with a therapist to figure out the best way
+                    forward for you.
+                </p>
+            </div>
+            <div id="right">
+                <p>
+                    These are the sorts of issues we can help with:
+                </p>
+                <div id="list-left">
+                    <ul type="disc">
+                        <li>Anxiety</li>
+                        <li>Anger</li>
+                        <li>Bullying</li>
+                        <li>Body Image</li>
+                        <li>Obsessive Compulsive Disorder</li>
+                        <li>Eating Problems</li>
+                        <li>School Problems</li>
+                        <li>Sleep Problems</li>
+                        <li>Self Confidence</li>
+                    </ul>
+                </div>
+                <div id="list-right">
+                    <ul type="disc">
+                        <li>Abuse</li>
+                        <li>Adjusting to Life or Health Changes</li>
+                        <li>Bereavement</li>
+                        <li>Depression</li>
+                        <li>Low Self Esteem</li>
+                        <li>OCD</li>
+                        <li>Suicidal Feelings</li>
+                        <li>Self Harm</li>
+                        <li>Stress</li>
+                    </ul>
+                </div>
+            </div>
+            <form action="LinkPage.html">
+                <input id="b3" onmouseover="mousebutton()" onmouseout="normalbutton()" type="submit" value="Book an appointment" />
+            </form>
+        </div>
+        <div id="third-page">
+            <div id="page3-title">
+                <p>FAQ</p>
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+            </div>
+            <div id="faq-list">
+                <ul id="faq">
+                    <li class="faqlist-arrow" id="faqlist1" onclick="faq1()">What is the process for getting help?</li>
+                    <ul class="faqlist-hide" id="faq1">
+                        <li>test</li>
+                    </ul>
+                    <hr style="border: 1px solid rgb(212, 212, 212);" />
+                    <li class="faqlist-arrow" id="faqlist2" onclick="faq2()">What is therapy?</li>
+                    <ul class="faqlist-hide" id="faq2">
+                        <li>test2</li>
+                    </ul>
+                    <hr style="border: 1px solid rgb(212, 212, 212);" />
+                    <li class="faqlist-arrow" id="faqlist3" onclick="faq3()">Is therapy confidential?</li>
+                    <ul class="faqlist-hide" id="faq3">
+                        <li>test3</li>
+                    </ul>
+                    <hr style="border: 1px solid rgb(212, 212, 212);" />
+                    <li class="faqlist-arrow" id="faqlist4" onclick="faq4()">Who will I/my young person see?</li>
+                    <ul class="faqlist-hide" id="faq4">
+                        <li>
+                            You will be seen by one of our experienced and friendly therapists. All our therapists are pychologists and counsellors qualified to work 
+                            with children and young people.
+                        </li>
+                    </ul>
+                    <hr style="border: 1px solid rgb(212, 212, 212);" />
+                    <li class="faqlist-arrow" id="faqlist5" onclick="faq5()">Does my parent/carer need to attend?</li>
+                    <ul class="faqlist-hide" id="faq5">
+                        <li>test4</li>
+                    </ul>
+                    <hr style="border: 1px solid rgb(212, 212, 212);" />
+                    <li class="faqlist-arrow" id="faqlist6" onclick="faq6()">As a parent or carer, can I have sessions for myself to help my young person?</li>
+                    <ul class="faqlist-hide" id="faq6">
+                        <li>test5</li>
+                    </ul>
+                    <hr style="border: 1px solid rgb(212, 212, 212);" />
+                    <li class="faqlist-arrow" id="faqlist7" onclick="faq7()">How long is a session?</li>
+                    <ul class="faqlist-hide" id="faq7">
+                        <li>test6</li>
+                    </ul>
+                    <hr style="border: 1px solid rgb(212, 212, 212);" />
+                    <li class="faqlist-arrow" id="faqlist8" onclick="faq8()">What will happen in the session?</li>
+                    <ul class="faqlist-hide" id="faq8">
+                        <li>test7</li>
+                    </ul>
+                    <hr style="border: 1px solid rgb(212, 212, 212);" />
+                    <li class="faqlist-arrow" id="last-elem" onclick="faq9()">How can I check you are qualified?</li>
+                    <ul class="faqlist-hide" id="faq9">
+                        <li>test8</li>
+                    </ul>
+                </ul>
+            </div>
+            <div id="mini-bubble5"></div>
+            <div id="page3-image"></div>
+            <div id="mini-bubble6"></div>
+        </div>
+        <div id="fourth-page">
+            <div id="page4-title">
+                <h3>I'm in crisis now and I need urgent help</h3>
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                <hr style="border: 1px dotted rgb(212, 212, 212);" />
+            </div>
+            <div id="page4-body">
+                <p>
+                    Mirado is not a crisis service. If you don't feel you can keep yourself safe right now, seek immediate help:
+                    <ul>
+                        <li>Go to any Accident and Emergency (A&E) department</li>
+                        <li>Call 999 and ask for an ambulance to take you to A&E</li>
+                        <li>Ask someone else to call 999 for you or take you to A&E</li>
+                    </ul>
+                </p>
+                <p>
+                    If you need urgent support but don't want to go to A&E, you could:
+                    <ul>
+                        <li>Call Samaritans on freephone 116 123 - they're always open and are there to listen</li>
+                        <li>Contact you GP surgery and ask for an emergency appointment</li>
+                        <li>Contact NHS 111 (England)</li>
+                        <li>Contact your local crisis team, if you're under their care</li>
+                    </ul>
+                </p>
+                <p>
+                    Click the yellow 'I need urgent help' button on the Mind <a href="http://www.mind.org.uk">www.mind.org.uk</a> website to see more options
+                </p>
+                <form action="LinkPage.html">
+                    <input id="b4" onmouseover="mousebutton()" onmouseout="normalbutton()" type="submit" value="Book a free telephone consultation" />
+                </form>
+            </div>
+            <div id="page4-image"></div>
+            <div id="mini-bubble7"></div>
+            <div id="mini-bubble8"></div>
+            <div id="mini-bubble9"></div>
+        </div>
+        <div id="fifth-page">
+            <div id="page5-title">
+                <h3>ABOUT US</h3>
+            </div>
+            <div id="page5-body">
+                <p>
+                    Our adult service, Talk Works, established in 2014, offering pyschological support to adults across the north east of England. Increasingly, we 
+                    have been asked to offer help to younger people, and so, in 2019, set up Mirado in light of the following concerns:
+                </p>
+                <ul type="disc">
+                    <li>At any one time, 1 in 5 young people aged 16-24 experience a common mental health problem such as anxiety and depression</li>
+                    <li>The NHS is unfortunately over-stretches. 75% of parents report that their child's mental health deteriorated whilst on a waiting list for CAMHS</li>
+                    <li>1 in 10 young people will self-harm</li>
+                </ul>
+                <a href="LinkPage.html">Learn More</a>
+                <div id="page5-logo"><img src="images/talkworks.png"></div>
+            </div>
+            <div id="page5-image"></div>
+            <div id="mini-bubble10"></div>
+            <div id="mini-bubble11"></div>
+        </div>
+        <div id="sixth-page">
+            <div id="page6-title">
+                <h3>NEWS & RESOURCES</h3>
+                <div id="page6-hr">
+                    <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                    <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                    <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                    <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                    <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                    <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                    <hr style="border: 1px dotted rgb(212, 212, 212);" />
+                </div>
+            </div>
+            <div id="insta">
+                <button id="scrollup" onclick="scrollup()">&#708;</button>
+                <div id="row">
+                    <div id="image-top" class="column">
+                        <img src="images/dawn.jpg">
+                        <img src="images/group.jpg">
+                    </div>
+                    <div class="column">
+                        <img src="images/superhero.jpg">
+                        <img src="images/smile2.jpg">
+                    </div>
+                    <div class="column">
+                        <img src="images/smile.jpg">
+                        <img src="images/hands.jpg">
+                    </div>
+                    <div id="image-bottom" class="column">
+                        <img src="images/smile3.jpg">
+                        <img src="images/ticks.jpg">
+                    </div>
+                </div>
+                <button id="scrolldown" onclick="scrolldown()">&#709;</button>
+            </div>
+            <div id="page6-body">
+                <p id="book-rec">Book Recommendations</p>
+                <p>Every month we will suggest some books to help you understand more Young People and their brains.</p>
+                <p id="featured"> This month's featured book is:</p>
+                <p>
+                    <div id="book-title">
+                        Blame my Brain by Nicola Morgan
+                    </div>
+                    This accessible and humorous examination of the ups and downs of the teenage brain deals with powerful emotions, the need for more sleep, and 
+                    the urge to take risks. A fantastic read for parents and young people available on <a href="http://www.amazon.co.uk/Blame-My-Brain-Nicola-Morgan-ebook/dp/B00CISRN48/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=">Amazon</a>.
+                </p>
+            </div>
+            <div id="book-cover"></div>
+            <div id="social-media">
+                <div id="fblike">
+                    <a href="LinkPage.html"><img src="images/facebook.gif"></a>
+                </div>
+                <div class="sm-square" id="facebook">
+                    <div id="fbcircle"></div>
+                    <a href="LinkPage.html"><img src="images/facebook.png"></a>
+                </div>
+                <div class="sm-square" id="twitter">
+                    <div id="twittercircle"></div>
+                    <a href="LinkPage.html"><img src="images/twitter.png"></a>
+                </div>              
+                <div class="sm-square" id="instagram">
+                    <div id="instacircle"></div> 
+                    <a href="LinkPage.html"><img src="images/instagram.png"></a>
+                </div> 
+                <div id="license">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            </div>
+        </div>
+        <div id="seventh-page">
+            <div id="page7-title">
+                <p>CONTACT US</p>
+            </div>
+            <div id="page7-form">
+                <form id="contact-form"  action="LinkPage.html">
+                    <div id="section1">
+                        <div id="first-name">
+                            <input type="text" placeholder="First Name*" required>
+                        </div>
+                        <div id="last-name">
+                            <input type="text" placeholder="Last Name*" required>
+                        </div>
+                        <div id="email">
+                            <input type="text" placeholder="Email*" required>
+                        </div>
+                        <div id="phone">
+                            <input type="text" placeholder="Telephone">
+                        </div>
+                    </div>
+                    <div id="dropdown">
+                        <select name="reason">
+                            <option value="phone-consultation">Book a free telephone consultation</option>
+                            <option value="other">Other appropriate option</option>
+                        </select>
+                    </div>
+                    <div id="message-box">
+                        <input type="text" placeholder="Message..." required>
+                    </div>
+                    <input id="b5" onmouseover="mousebutton()" onmouseout="normalbutton()" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div id="eigth-page">
+            <div id="map">
+                <script async defer 
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMgX5mxghqXcnTNiCS8zR1TDxogHECfAw&callback=myMap">
+                </script>
+            </div>
+            <div id="map-bubble">
+                <div id="page8-title">
+                    <h3>Where to find us</h3>
+                </div>
+                <ul>
+                    <li>Free on-site parking</li>
+                    <li>5 minute walk from Gateshead Metro</li>
+                    <li>20 minute walk from Newcastle Central Station</li>
+                </ul>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <div id="address">
+                    Gateshead International Business Centre, Mulgrave Terrace, Gateshead, NE8 1AN
+                </div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <div id="work-number">
+                    0191 490 9301
+                </div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <div id="work-email">
+                    talktous@mirado.co.uk
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="logo">
+                <img src="images/bottom-logo.png">
+            </div>
+            <div id="footer-info">
+                Copyright &copy; 2019 Mirado. All Rights Reserved. <a href="LinkPage.html">Privacy & Cookie Notice</a> | <a href="LinkPage.html">Useful Links</a>
+            </div>
+            <div id="footer-sm">
+                <div class="sm-circle" id="facebook2">
+                    <div id="fbcircle2"></div>
+                    <a href="LinkPage.html"><img src="images/facebook.png"></a>
+                </div>
+                <div class="sm-circle" id="twitter2">
+                    <div id="twittercircle2"></div>
+                    <a href="LinkPage.html"><img src="images/twitter.png"></a>
+                </div>
+                <div class="sm-circle" id="instagram2">
+                    <div id="instacircle2"></div>
+                    <a href="LinkPage.html"><img src="images/instagram.png"></a>
+                </div>
+                <div id="license2">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            </div>
+        </div>
+    </body>
+</html>
